@@ -17,6 +17,11 @@
 		6760097F1F3C044C0025686D /* fastlanedemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6760097E1F3C044C0025686D /* fastlanedemoTests.m */; };
 		6760098A1F3C044C0025686D /* fastlanedemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 676009891F3C044C0025686D /* fastlanedemoUITests.m */; };
 		676009A01F3C393D0025686D /* MyService.m in Sources */ = {isa = PBXBuildFile; fileRef = 6760099F1F3C393D0025686D /* MyService.m */; };
+		676009A31F3C39D20025686D /* MyModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 676009A21F3C39D20025686D /* MyModel.m */; };
+		676009A61F3C39DE0025686D /* MyHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 676009A51F3C39DE0025686D /* MyHelper.m */; };
+		676009A91F3C39EC0025686D /* MyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 676009A81F3C39EC0025686D /* MyView.m */; };
+		676009AC1F3C39FB0025686D /* MyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 676009AB1F3C39FB0025686D /* MyViewController.m */; };
+		676009AF1F3C3A100025686D /* MyViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 676009AE1F3C3A100025686D /* MyViewModel.m */; };
 		6D3BF4A76E46DDC10E852A20 /* Pods_fastlanedemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44D52E870D12E2CE0C88149D /* Pods_fastlanedemo.framework */; };
 		EE70008A79DE5CC9E245B210 /* Pods_fastlanedemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E740AA19009E8B8C7AE0F63 /* Pods_fastlanedemoTests.framework */; };
 /* End PBXBuildFile section */
@@ -63,6 +68,16 @@
 		6760098B1F3C044C0025686D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6760099E1F3C393D0025686D /* MyService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyService.h; sourceTree = "<group>"; };
 		6760099F1F3C393D0025686D /* MyService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyService.m; sourceTree = "<group>"; };
+		676009A11F3C39D20025686D /* MyModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyModel.h; sourceTree = "<group>"; };
+		676009A21F3C39D20025686D /* MyModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyModel.m; sourceTree = "<group>"; };
+		676009A41F3C39DE0025686D /* MyHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyHelper.h; sourceTree = "<group>"; };
+		676009A51F3C39DE0025686D /* MyHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyHelper.m; sourceTree = "<group>"; };
+		676009A71F3C39EC0025686D /* MyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyView.h; sourceTree = "<group>"; };
+		676009A81F3C39EC0025686D /* MyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyView.m; sourceTree = "<group>"; };
+		676009AA1F3C39FB0025686D /* MyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyViewController.h; sourceTree = "<group>"; };
+		676009AB1F3C39FB0025686D /* MyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyViewController.m; sourceTree = "<group>"; };
+		676009AD1F3C3A100025686D /* MyViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyViewModel.h; sourceTree = "<group>"; };
+		676009AE1F3C3A100025686D /* MyViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyViewModel.m; sourceTree = "<group>"; };
 		716D5CA2BA06B71D5AC28FA1 /* Pods-fastlanedemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fastlanedemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-fastlanedemoTests/Pods-fastlanedemoTests.debug.xcconfig"; sourceTree = "<group>"; };
 		DA5E288179764471FD2C9599 /* Pods-fastlanedemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fastlanedemoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-fastlanedemoUITests/Pods-fastlanedemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		F0A2A77484966E4A32CB24DC /* Pods-fastlanedemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fastlanedemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-fastlanedemo/Pods-fastlanedemo.release.xcconfig"; sourceTree = "<group>"; };
@@ -190,6 +205,8 @@
 		676009981F3C391C0025686D /* Helper */ = {
 			isa = PBXGroup;
 			children = (
+				676009A41F3C39DE0025686D /* MyHelper.h */,
+				676009A51F3C39DE0025686D /* MyHelper.m */,
 			);
 			path = Helper;
 			sourceTree = "<group>";
@@ -197,6 +214,8 @@
 		676009991F3C391C0025686D /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				676009A11F3C39D20025686D /* MyModel.h */,
+				676009A21F3C39D20025686D /* MyModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -213,6 +232,8 @@
 		6760099B1F3C391C0025686D /* View */ = {
 			isa = PBXGroup;
 			children = (
+				676009A71F3C39EC0025686D /* MyView.h */,
+				676009A81F3C39EC0025686D /* MyView.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -220,6 +241,8 @@
 		6760099C1F3C391C0025686D /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				676009AA1F3C39FB0025686D /* MyViewController.h */,
+				676009AB1F3C39FB0025686D /* MyViewController.m */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -227,6 +250,8 @@
 		6760099D1F3C391C0025686D /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				676009AD1F3C3A100025686D /* MyViewModel.h */,
+				676009AE1F3C3A100025686D /* MyViewModel.m */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -524,10 +549,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				676009AF1F3C3A100025686D /* MyViewModel.m in Sources */,
 				6760096C1F3C044C0025686D /* ViewController.m in Sources */,
+				676009A31F3C39D20025686D /* MyModel.m in Sources */,
+				676009AC1F3C39FB0025686D /* MyViewController.m in Sources */,
 				676009A01F3C393D0025686D /* MyService.m in Sources */,
+				676009A61F3C39DE0025686D /* MyHelper.m in Sources */,
 				676009691F3C044C0025686D /* AppDelegate.m in Sources */,
 				676009661F3C044C0025686D /* main.m in Sources */,
+				676009A91F3C39EC0025686D /* MyView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
