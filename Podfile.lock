@@ -1,0 +1,56 @@
+PODS:
+  - Alamofire (4.5.0)
+  - HandyJSON (1.7.2)
+  - Kingfisher (3.10.3)
+  - Moya (8.0.5):
+    - Moya/Core (= 8.0.5)
+  - Moya/Core (8.0.5):
+    - Alamofire (~> 4.1)
+    - Result (~> 3.0)
+  - Moya/RxSwift (8.0.5):
+    - Moya/Core
+    - RxSwift (~> 3.0)
+  - Result (3.2.3)
+  - RxBlocking (3.6.1):
+    - RxSwift (~> 3.6)
+  - RxCocoa (3.6.1):
+    - RxSwift (~> 3.6)
+  - RxDataSources (1.0.4):
+    - RxCocoa (~> 3.0)
+    - RxSwift (~> 3.0)
+  - RxSwift (3.6.1)
+  - RxTest (3.6.1):
+    - RxSwift (~> 3.6)
+  - SwiftDate (4.0.14)
+  - Then (2.1.0)
+
+DEPENDENCIES:
+  - HandyJSON
+  - Kingfisher
+  - Moya
+  - Moya/RxSwift
+  - RxBlocking (~> 3.0)
+  - RxCocoa (~> 3.0)
+  - RxDataSources (~> 1.0)
+  - RxSwift (~> 3.0)
+  - RxTest (~> 3.0)
+  - SwiftDate (~> 4.0.11)
+  - Then (~> 2.1.0)
+
+SPEC CHECKSUMS:
+  Alamofire: f28cdffd29de33a7bfa022cbd63ae95a27fae140
+  HandyJSON: e7ad0483005826baba1d1c251cd98d0aa8bd8cce
+  Kingfisher: a0ac82dc5bcf0388dd74b294cf2cc13730c63436
+  Moya: c37eec09a098ba9991b5a963b291fc5704bdb9ef
+  Result: 128640a6347e8d2ae48b142556739a2d13f90ce6
+  RxBlocking: 4f4bd5732e8b952e54ae8a57739bcfb645de12bc
+  RxCocoa: 84a08739ab186248c7f31ce4ee92d6f8a947d690
+  RxDataSources: b3389acc5fe2eefb8fcd81a2b76a876ad08bc82a
+  RxSwift: f9de85ea20cd2f7716ee5409fc13523dc638e4e4
+  RxTest: 1d00348a7848c91ab5bf5d197d2378aa6b2bb356
+  SwiftDate: 4ef029fd3117cc287fe642658b9aca2217628976
+  Then: 8496793c8fcac95482b943909b440724c7d8d82c
+
+PODFILE CHECKSUM: 47b6a8fd86eac3fb9d65d07549785cb14bb6e9db
+
+COCOAPODS: 1.2.0
