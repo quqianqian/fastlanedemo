@@ -16,6 +16,7 @@
 		676009741F3C044C0025686D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 676009721F3C044C0025686D /* LaunchScreen.storyboard */; };
 		6760097F1F3C044C0025686D /* fastlanedemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6760097E1F3C044C0025686D /* fastlanedemoTests.m */; };
 		6760098A1F3C044C0025686D /* fastlanedemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 676009891F3C044C0025686D /* fastlanedemoUITests.m */; };
+		676009A01F3C393D0025686D /* MyService.m in Sources */ = {isa = PBXBuildFile; fileRef = 6760099F1F3C393D0025686D /* MyService.m */; };
 		6D3BF4A76E46DDC10E852A20 /* Pods_fastlanedemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44D52E870D12E2CE0C88149D /* Pods_fastlanedemo.framework */; };
 		EE70008A79DE5CC9E245B210 /* Pods_fastlanedemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E740AA19009E8B8C7AE0F63 /* Pods_fastlanedemoTests.framework */; };
 /* End PBXBuildFile section */
@@ -60,6 +61,8 @@
 		676009851F3C044C0025686D /* fastlanedemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fastlanedemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		676009891F3C044C0025686D /* fastlanedemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = fastlanedemoUITests.m; sourceTree = "<group>"; };
 		6760098B1F3C044C0025686D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6760099E1F3C393D0025686D /* MyService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyService.h; sourceTree = "<group>"; };
+		6760099F1F3C393D0025686D /* MyService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyService.m; sourceTree = "<group>"; };
 		716D5CA2BA06B71D5AC28FA1 /* Pods-fastlanedemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fastlanedemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-fastlanedemoTests/Pods-fastlanedemoTests.debug.xcconfig"; sourceTree = "<group>"; };
 		DA5E288179764471FD2C9599 /* Pods-fastlanedemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fastlanedemoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-fastlanedemoUITests/Pods-fastlanedemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		F0A2A77484966E4A32CB24DC /* Pods-fastlanedemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fastlanedemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-fastlanedemo/Pods-fastlanedemo.release.xcconfig"; sourceTree = "<group>"; };
@@ -131,6 +134,7 @@
 		676009631F3C044C0025686D /* fastlanedemo */ = {
 			isa = PBXGroup;
 			children = (
+				676009971F3C391C0025686D /* Code */,
 				676009671F3C044C0025686D /* AppDelegate.h */,
 				676009681F3C044C0025686D /* AppDelegate.m */,
 				6760096A1F3C044C0025686D /* ViewController.h */,
@@ -168,6 +172,63 @@
 				6760098B1F3C044C0025686D /* Info.plist */,
 			);
 			path = fastlanedemoUITests;
+			sourceTree = "<group>";
+		};
+		676009971F3C391C0025686D /* Code */ = {
+			isa = PBXGroup;
+			children = (
+				676009981F3C391C0025686D /* Helper */,
+				676009991F3C391C0025686D /* Model */,
+				6760099A1F3C391C0025686D /* Service */,
+				6760099B1F3C391C0025686D /* View */,
+				6760099C1F3C391C0025686D /* ViewController */,
+				6760099D1F3C391C0025686D /* ViewModel */,
+			);
+			path = Code;
+			sourceTree = "<group>";
+		};
+		676009981F3C391C0025686D /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		676009991F3C391C0025686D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6760099A1F3C391C0025686D /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				6760099E1F3C393D0025686D /* MyService.h */,
+				6760099F1F3C393D0025686D /* MyService.m */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		6760099B1F3C391C0025686D /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6760099C1F3C391C0025686D /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		6760099D1F3C391C0025686D /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 		E9EDBAE93C9971F3DC35A62D /* Frameworks */ = {
@@ -464,6 +525,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6760096C1F3C044C0025686D /* ViewController.m in Sources */,
+				676009A01F3C393D0025686D /* MyService.m in Sources */,
 				676009691F3C044C0025686D /* AppDelegate.m in Sources */,
 				676009661F3C044C0025686D /* main.m in Sources */,
 			);
@@ -711,6 +773,7 @@
 				676009901F3C044C0025686D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		676009911F3C044C0025686D /* Build configuration list for PBXNativeTarget "fastlanedemoTests" */ = {
 			isa = XCConfigurationList;
@@ -719,6 +782,7 @@
 				676009931F3C044C0025686D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		676009941F3C044C0025686D /* Build configuration list for PBXNativeTarget "fastlanedemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -727,6 +791,7 @@
 				676009961F3C044C0025686D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
